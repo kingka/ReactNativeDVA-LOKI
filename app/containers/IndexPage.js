@@ -67,6 +67,9 @@ class IndexPage extends Component {
         <Text h1 style={styles.title}>
           Yay! Welcome to dva!
         </Text>
+        <Text h1 style={styles.title}>
+          {name}
+        </Text>
         <ImageBackground source={yay} style={styles.welcome} />
         <View style={styles.list}>
           <FlatList
